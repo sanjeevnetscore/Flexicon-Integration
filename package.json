@@ -1,0 +1,12 @@
+{
+  "name": "flexicon-integration",
+  "version": "1.0.0",
+  "description": "Flexicon Integration project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
