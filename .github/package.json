@@ -1,12 +1,18 @@
 {
   "name": "flexicon-integration",
   "version": "1.0.0",
-  "description": "Flexicon Integration project",
+  "description": "A project for integrating Flexicon with other systems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "jest": "^27.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjeevnetscore/Flexicon-Integration.git"
+  }
 }
