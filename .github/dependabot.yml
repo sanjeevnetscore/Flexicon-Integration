@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # GitHub Actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/" # Location of the .github/workflows files
+    schedule:
+      interval: "weekly"
+
+  # npm dependencies (for JavaScript/Node.js projects)
+  - package-ecosystem: "npm"
+    directory: "/" # Adjust if package.json is in a subdirectory
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    versioning-strategy: increase-if-necessary
+
+  # Composer dependencies (for PHP projects)
+  - package-ecosystem: "composer"
+    directory: "/" # Adjust if composer.json is in a subdirectory
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
